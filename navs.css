@@ -1,0 +1,310 @@
+
+/* 
+
+body{
+    margin: o;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    width: 20%;
+    background-color:darkgray;
+    position: fixed;
+    height:100%;
+    overflow: auto;
+
+}
+li a{
+    display:block;
+    color: darkgreen;
+    padding: 10px 17px;
+    text-decoration:none;
+
+}
+li a.active{
+    background-color: darkred;
+    color: black;
+
+}
+li a:hover:not(.active){
+    background-color: chartreuse;
+    color: cornsilk;
+}
+*/
+/* 
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    
+    
+   
+
+}
+li{
+    flex: left;
+    display: inline;
+
+}
+li a{
+    
+    padding: 8px;
+    background-color: darkcyan;
+
+}
+DROPDOWN
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 5;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: red}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+ */
+ /* css cho dropdown 2
+ .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 19;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(187, 255, 0)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #8e3e56;
+}
+hình ảnh
+div.gallery{
+    margin: 20px;
+    border: 2px solid black;
+    float: auto;
+    width: 500px;
+
+}
+div.gallery:hover{
+    border: 1px solid royalblue;
+}
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+div.nhut{
+    padding: 15px;
+    text-align: center;
+}
+  */
+  .flex{
+    min-height: 45px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .flex-list{
+    padding-left:0;
+    list-style-type: none;
+    margin: auto 16px;
+
+
+    
+
+      
+  }
+  .flex-item{
+    color: rgba(170, 33, 33, 0.712);
+    margin:0 8px;
+    display: inline-block;
+    color: white;
+    
+
+
+  }
+  
+  
+  .flex-item_con{
+    background-color: darkslategray;
+  }
+    
+  .flex-item:hover:not(.flex-item_con){
+    background-color: cornflowerblue;
+
+  }
+  /* form layout */
+  .form-container{
+    max-width: 500px;
+    padding: 50px;
+    background-color: yellowgreen;
+    margin: 20px auto 0 auto;
+
+  }
+  .form_div2{
+   padding: 8px 0;
+   display: flex;
+  }
+  .form_lable{
+   
+    min-width:  120px;
+  }
+  .form_input{
+    flex:1;
+    
+  }
+  .side-layout{
+    display: flex;
+    background-color: wheat;
+    margin-top: 25px;
+   
+  }
+  .side-item{
+    padding: 0 15px;
+    justify-content: space-around;
+
+   
+  }
+  .sidebar-one{
+    flex: 1;
+  }
+  .main-column{
+    flex: 2;
+  }
+  .sidebar-two{
+    flex: 1;
+  }
+  .feature-layout{
+    margin-top: 25px;
+    display: flex;
+    background-color:cadetblue;
+    justify-content: space-around;
+  
+  }
+  .feature-item{
+    margin: 30px;
+    
+    padding: 20px;
+  }
+  .feature-item:nth-child(1){
+    background-color: #D8BFD8;
+  }
+  .feature-item:nth-child(2){
+    background-color: #90EE90;
+  }
+  .feature-item:nth-child(3){
+    background-color: #778899;
+  }
+  .div-layout{
+    background-color: #F0FFFF;
+    display: flex;
+    justify-content:space-around;
+    padding: 12px 0 32px 0;
+    padding-top: 36px;
+
+
+  }
+  .div-layout_item{
+    color: white;
+    background-color: tomato;
+    width: 150px;
+    height: 90px;
+    font-size: 45px;
+    text-align: center;
+    font-weight:800;
+    line-height: 85px;
+    
+    
+    
+
+  }
+  .chart-layout{
+    display: flex;
+    margin: 35px auto auto;
+    justify-content: space-around;
+    background-color: wheat;
+    padding: 30px 0;
+    height: 300px;
+  }
+  .chart-layout_item{
+    width: 30px;
+    background-color: yellowgreen;
+    height: var(--percent);
+    align-self: flex-end;
+    animation: growth ease-in 2s;
+
+  }
+  @keyframes growth{
+    from{
+      opacity: 0;
+      height: calc(var(--percent)-50%);
+    }
+    to{
+      opacity: 2;
+      height: var(--percent);
+    }
+  }
+
+
+
+
+
+
